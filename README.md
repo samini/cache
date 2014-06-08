@@ -5,12 +5,12 @@ Caché: Caching Location-Enhanced Content to Improve User Privacy
 
 If you use or modify the code, especially for research purposes, please refer to the paper.
 
-The paper is available at the following URLs:
+The ACM MobiSys 2011 paper is available at the following URLs:
 http://dl.acm.org/citation.cfm?id=2000015
 http://saminicmu.appspot.com/papers/Amini11_Cache_Digital.pdf [mirror]
 http://cmuchimps.org/publications/cache_caching_location-enhanced_content_to_improve_user_privacy_2011/pub_download [mirror]
 
-For an extended version of the paper, please refer to the tech report. For citation purposes, refer to the MobiSys 2011 paper. The tech report is available at the following URLs:
+For an extended version of the paper, please refer to the tech report. For citation purposes, please only refer to the ACM MobiSys 2011 paper. The tech report is available at the following URLs:
 http://kettle.ubiq.cs.cmu.edu/~samini/papers/Amini10_Cache_TechReport.pdf
 http://kettle.ubiq.cs.cmu.edu/~samini/papers/Amini10_Cache_TechReport.pdf [mirror]
 
