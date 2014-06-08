@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <Button android:id="@+id/viewTablesButton" android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:textSize="24sp"
+		android:fadingEdge="vertical" android:layout_weight="1"
+		android:text="View Caches" />
+		
+	<Button android:id="@+id/deviceStatusButton" android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:textSize="24sp"
+		android:fadingEdge="vertical" android:layout_weight="1"
+		android:text="Device Status" />
+    
+	<Button android:id="@+id/restartServiceButton" android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:textSize="24sp"
+		android:fadingEdge="vertical" android:layout_weight="1"
+		android:text="Restart Service" />
+		
+	<Button android:id="@+id/stopServiceButton" android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:textSize="24sp"
+		android:fadingEdge="vertical" android:layout_weight="1"
+		android:text="Stop Service" />
+		
+	<Button android:id="@+id/aboutButton"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:textSize="24sp" android:fadingEdge="vertical"
+		android:layout_weight="1" android:text="About" />
+</LinearLayout>

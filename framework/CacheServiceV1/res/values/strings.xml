@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, CacheFramework!</string>
+    <string name="app_name">CMU Caché Framework</string>
+    <string name="foreground_service_started">Cache framework is running.</string>
+    <string name="about_dialog"><![CDATA[(C) 2010 Application developed by Shahriyar Amini.]]></string>
+    
+    <string name="delete_table">Delete Table</string>
+    <string name="copy_table">Copy Table to SD</string>
+    <string name="edit_table">Edit Table</string>
+    <string name="new_table_instance">New Instance</string>
+    
+    <string name="menu_save">Save</string>
+    <string name="menu_back">Back</string>
+    
+    <string name="menu_dl">Download</string>
+</resources>

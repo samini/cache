@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView 
+xmlns:android="http://schemas.android.com/apk/res/android" 
+android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+<LinearLayout 
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+<TextView android:text="Table ID:" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<TextView android:text="" android:id="@+id/tableIdTextView" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+
+<TextView android:text="App Name:" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<TextView android:text="" android:id="@+id/appNameTextView" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+
+<TextView android:text="Registration TS:" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<TextView android:text="" android:id="@+id/regTsTextView" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+
+<TextView android:text="URL:" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<TextView android:text="" android:id="@+id/urlTextView" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+
+<TextView android:text="URL Params:" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<TextView android:text="" android:id="@+id/urlParamsTextView" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+
+<TextView android:text="API:" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<TextView android:text="" android:id="@+id/apiTextView" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+
+<TextView android:text="Cell Width:" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<TextView android:text="" android:id="@+id/cellWidthTextView" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+
+<TextView android:text="Cell Height:" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<TextView android:text="" android:id="@+id/cellHeightTextView" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+
+<TextView android:text="Update Complete TS:" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<TextView android:text="" android:id="@+id/upComTsTextView" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+
+<TextView android:text="Update Init TS:" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<TextView android:text="" android:id="@+id/upInitTsTextView" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+
+<TextView android:text="Priority:" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+
+
+<TextView android:text="Rate (days):" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<TextView android:text="" android:id="@+id/rateTextView" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+
+<TextView android:text="Address:" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<EditText
+	android:id="@+id/addressEditText"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    />
+    
+<TextView android:id="@+id/addressCoordinates" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+
+<Button android:text="GeoCode" android:id="@+id/geoCodeButton" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button><TextView android:text="" android:id="@+id/priorityTextView" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+
+
+<TextView android:text="Center:" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<TextView android:text="" android:id="@+id/centerTextView" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+
+<TextView android:text="Radius (miles):" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<EditText
+	android:id="@+id/radiusEditText"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    />
+
+<TextView android:text="NW:" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<TextView android:text="" android:id="@+id/nwTextView" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+
+<TextView android:text="NE:" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<TextView android:text="" android:id="@+id/neTextView" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+
+<TextView android:text="SE:" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<TextView android:text="" android:id="@+id/seTextView" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+
+<TextView android:text="SW:" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<TextView android:text="" android:id="@+id/swTextView" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+
+<TextView android:text="Num Cells:" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<TextView android:text="" android:id="@+id/numCellsTextView" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+
+<TextView android:text="Last Cell:" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<TextView android:text="" android:id="@+id/lastCellTextView" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+
+<TextView android:text="Multi-Level:" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<TextView android:text="" android:id="@+id/multiLevelTextView" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+
+<TextView android:text="Level:" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<TextView android:text="" android:id="@+id/levelTextView" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+
+<TextView android:text="Overlay:" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<TextView android:text="" android:id="@+id/overlayTextView" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+
+</LinearLayout>
+
+</ScrollView>

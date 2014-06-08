@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:stretchColumns="1">
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="Plugged In and Above Battery Threshold:"
+             />
+        <CheckBox android:id="@+id/pluggedInCheckBox" android:editable="false"
+        	/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="WiFi Enabled:"
+            />
+        <CheckBox android:id="@+id/wifiEnabledCheckBox" android:editable="false"
+        	/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="AP Connected:"
+            />
+        <CheckBox android:id="@+id/apConnectedCheckBox" android:editable="false"
+        	/>
+    </TableRow>
+</TableLayout>

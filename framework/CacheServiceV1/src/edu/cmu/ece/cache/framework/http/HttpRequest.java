@@ -1,0 +1,73 @@
+/*
+   Copyright 2010 Shahriyar Amini
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+ */
+
+package edu.cmu.ece.cache.framework.http;
+
+import java.io.IOException;
+
+import org.apache.http.client.ClientProtocolException;
+import org.apache.http.client.HttpClient;
+import org.apache.http.client.ResponseHandler;
+import org.apache.http.client.methods.HttpGet;
+import org.apache.http.impl.client.BasicResponseHandler;
+import org.apache.http.impl.client.DefaultHttpClient;
+
+import android.util.Log;
+
+public class HttpRequest {
+
+	public static final int HTTP_RETRY_DEFAULT = 2;
+	public static final String TAG = HttpRequest.class.getName();
+	
+	// if retry is 0 does this only once
+	// if HTTP_RETRY_DEFAULT is used then there are HTTP_RETRY_DEFAULT + 1 tries
+	public static String HttpRequestURL(String url, int retry) {
+		String val = null;
+		
+		do {
+			
+			// simply ignore problems
+			try {
+				val = HttpRequestURL(url);
+				return val;
+			} catch (ClientProtocolException e) {
+				e.printStackTrace();
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+			
+			Log.d(TAG, "Retrying HTTP Request");
+			
+			retry--;
+			
+		} while (retry >= 0);
+		
+		return val;
+	}
+	
+	public static String HttpRequestURL(String url) throws ClientProtocolException, IOException
+	{
+		String val = null;
+		
+		HttpGet httpGet = new HttpGet(url);
+		HttpClient httpClient = new DefaultHttpClient();
+        ResponseHandler responseHandler = new BasicResponseHandler();
+        val = httpClient.execute(httpGet, responseHandler);
+		
+		return val;
+	}
+
+}
