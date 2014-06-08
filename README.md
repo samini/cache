@@ -17,7 +17,7 @@ http://kettle.ubiq.cs.cmu.edu/~samini/papers/Amini10_Cache_TechReport.pdf [mirro
 Both the actual framework and the sample Cache-enhanced app are Android projects. They can be setup and built most easily using ADT:
 http://developer.android.com/sdk/index.html
 
-Since the framework uses an aidl to auto-generate the Android service Java code, it is recommended to use a bundled version of ADT rather than the ADT plugin for eclipse. The ADT eclipse problems sometimes has issues auto-generating code from aidl.
+Since the framework uses an aidl to auto-generate the Android service Java code, it is recommended to use a bundled version of ADT rather than the ADT plugin for eclipse. The ADT eclipse plugin sometimes has issues auto-generating code from aidl.
 
 Notes for users:
 
