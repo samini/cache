@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Main!</string>
+    <string name="app_name">CMU Caché Yelp Application</string>
+    <string name="menu_refresh">Refresh Content</string>
+    <string name="menu_about">About</string>
+    <string name="about_dialog">(C) 2010 Application developed by Shahriyar Amini.</string>
+</resources>
