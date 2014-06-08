@@ -36,6 +36,6 @@ http://www.yelp.com/developers/documentation/technical_overview
 For the sample application, please provide a Google Maps API key in the following file:
 CacheYelpAppV1/res/layout/yelp_map_activity.xml
 
-The YELP API id should be updated in the following files (Look for FIXMEs):
+The Yelp API id should be updated in the following files (Look for FIXMEs):
 CacheYelpAppV1/src/edu/cmu/ece/cache/sample/yelp/Main.java
 CacheYelpAppV1/src/edu/cmu/ece/cache/sample/yelp/YelpContentRequest.java
